@@ -1,0 +1,107 @@
+<t:          0>, main.c,  295, ----- BLE Mesh Traffic Light Full Demo -----
+<t:          0>, mesh_softdevice_init.c,  112, Initializing SoftDevice...
+<t:          0>, mesh_softdevice_init.c,   77, Enabling BLE...
+<t:          2>, mesh_softdevice_init.c,   88, Ram base: 0x200032C8
+<t:        573>, main.c,  262, Initializing and adding models
+<t:       5456>, main.c,  318, Device UUID : 0059FFFF0000000097D21FC7618A675F
+<t:     138456>, main.c,  229, Successfully provisioned
+<t:     138458>, main.c,  233, Node Address: 0x0106 
+<t:     171231>, main.c,  177, There is still no data in data_store 
+<t:     203999>, main.c,  177, There is still no data in data_store 
+<t:     236767>, main.c,  177, There is still no data in data_store 
+<t:     269535>, main.c,  177, There is still no data in data_store 
+<t:     302303>, main.c,  177, There is still no data in data_store 
+<t:     335071>, main.c,  177, There is still no data in data_store 
+<t:     367839>, main.c,  177, There is still no data in data_store 
+<t:     400607>, main.c,  177, There is still no data in data_store 
+<t:     433375>, main.c,  177, There is still no data in data_store 
+<t:     466143>, main.c,  177, There is still no data in data_store 
+<t:     498911>, main.c,  177, There is still no data in data_store 
+<t:     531679>, main.c,  177, There is still no data in data_store 
+<t:     564447>, main.c,  177, There is still no data in data_store 
+<t:     597215>, main.c,  177, There is still no data in data_store 
+<t:     629983>, main.c,  177, There is still no data in data_store 
+<t:     662751>, main.c,  177, There is still no data in data_store 
+<t:     695519>, main.c,  177, There is still no data in data_store 
+<t:     728287>, main.c,  177, There is still no data in data_store 
+<t:     761055>, main.c,  177, There is still no data in data_store 
+<t:     793823>, main.c,  161, Sending a SIMPLE_SMART_CITY_SET message with state 0x0 
+<t:     793833>, main.c,  177, There is still no data in data_store 
+<t:     826591>, main.c,  177, There is still no data in data_store 
+<t:     859359>, main.c,  177, There is still no data in data_store 
+<t:     892127>, main.c,  177, There is still no data in data_store 
+<t:     924895>, main.c,  177, There is still no data in data_store 
+<t:     957663>, main.c,  177, There is still no data in data_store 
+<t:     990431>, main.c,  177, There is still no data in data_store 
+<t:    1023199>, main.c,  177, There is still no data in data_store 
+<t:    1055967>, main.c,  177, There is still no data in data_store 
+<t:    1088735>, main.c,  177, There is still no data in data_store 
+<t:    1121503>, main.c,  177, There is still no data in data_store 
+<t:    1154271>, main.c,  177, There is still no data in data_store 
+<t:    1187039>, main.c,  177, There is still no data in data_store 
+<t:    1219807>, main.c,  177, There is still no data in data_store 
+<t:    1252575>, main.c,  177, There is still no data in data_store 
+<t:    1285343>, main.c,  177, There is still no data in data_store 
+<t:    1318111>, main.c,  177, There is still no data in data_store 
+<t:    1350879>, main.c,  177, There is still no data in data_store 
+<t:    1383647>, main.c,  177, There is still no data in data_store 
+<t:    1416415>, main.c,  177, There is still no data in data_store 
+<t:    1449183>, main.c,  177, There is still no data in data_store 
+<t:    1481951>, main.c,  177, There is still no data in data_store 
+<t:    1514719>, main.c,  177, There is still no data in data_store 
+<t:    1547487>, main.c,  177, There is still no data in data_store 
+<t:    1580255>, main.c,  177, There is still no data in data_store 
+<t:    1613023>, main.c,  177, There is still no data in data_store 
+<t:    1645791>, main.c,  177, There is still no data in data_store 
+<t:    1678559>, main.c,  177, There is still no data in data_store 
+<t:    1711327>, main.c,  177, There is still no data in data_store 
+<t:    1744095>, main.c,  177, There is still no data in data_store 
+<t:    1776863>, main.c,  161, Sending a SIMPLE_SMART_CITY_SET message with state 0x0 
+<t:    1776873>, main.c,  177, There is still no data in data_store 
+<t:    1809631>, main.c,  177, There is still no data in data_store 
+<t:    1842399>, main.c,  177, There is still no data in data_store 
+<t:    1875167>, main.c,  177, There is still no data in data_store 
+<t:    1907935>, main.c,  177, There is still no data in data_store 
+<t:    1940703>, main.c,  177, There is still no data in data_store 
+<t:    1973471>, main.c,  177, There is still no data in data_store 
+<t:    2006239>, main.c,  177, There is still no data in data_store 
+<t:    2039007>, main.c,  177, There is still no data in data_store 
+<t:    2071775>, main.c,  177, There is still no data in data_store 
+<t:    2104543>, main.c,  177, There is still no data in data_store 
+<t:    2104546>, main.c,  184, Requesting a SIMPLE_SMART_CITY_GET message 
+<t:    2137311>, main.c,  177, There is still no data in data_store 
+<t:    2170079>, main.c,  177, There is still no data in data_store 
+<t:    2202847>, main.c,  177, There is still no data in data_store 
+<t:    2235615>, main.c,  177, There is still no data in data_store 
+<t:    2268383>, main.c,  177, There is still no data in data_store 
+<t:    2301151>, main.c,  177, There is still no data in data_store 
+<t:    2333919>, main.c,  177, There is still no data in data_store 
+<t:    2366687>, main.c,  177, There is still no data in data_store 
+<t:    2399455>, main.c,  177, There is still no data in data_store 
+<t:    2432223>, main.c,  177, There is still no data in data_store 
+<t:    2464991>, main.c,  177, There is still no data in data_store 
+<t:    2497759>, main.c,  177, There is still no data in data_store 
+<t:    2530527>, main.c,  177, There is still no data in data_store 
+<t:    2563295>, main.c,  177, There is still no data in data_store 
+<t:    2596063>, main.c,  177, There is still no data in data_store 
+<t:    2628831>, main.c,  177, There is still no data in data_store 
+<t:    2661599>, main.c,  177, There is still no data in data_store 
+<t:    2694367>, main.c,  177, There is still no data in data_store 
+<t:    2727135>, main.c,  177, There is still no data in data_store 
+<t:    2759903>, main.c,  161, Sending a SIMPLE_SMART_CITY_SET message with state 0x0 
+<t:    2759913>, main.c,  177, There is still no data in data_store 
+<t:    2792671>, main.c,  177, There is still no data in data_store 
+<t:    2825439>, main.c,  177, There is still no data in data_store 
+<t:    2858207>, main.c,  177, There is still no data in data_store 
+<t:    2890975>, main.c,  177, There is still no data in data_store 
+<t:    2923743>, main.c,  177, There is still no data in data_store 
+<t:    2956511>, main.c,  177, There is still no data in data_store 
+<t:    2989279>, main.c,  177, There is still no data in data_store 
+<t:    3022047>, main.c,  177, There is still no data in data_store 
+<t:    3054815>, main.c,  177, There is still no data in data_store 
+<t:    3087583>, main.c,  177, There is still no data in data_store 
+<t:    3120351>, main.c,  177, There is still no data in data_store 
+<t:    3153119>, main.c,  177, There is still no data in data_store 
+<t:    3185887>, main.c,  177, There is still no data in data_store 
+<t:    3218655>, main.c,  177, There is still no data in data_store 
+<t:    3251423>, main.c,  177, There is still no data in data_store

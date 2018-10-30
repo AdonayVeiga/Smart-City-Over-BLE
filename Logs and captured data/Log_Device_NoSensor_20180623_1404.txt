@@ -1,0 +1,916 @@
+<t:          0>, main.c,  268, ----- BLE Mesh Traffic Light Full Demo -----
+<t:          0>, mesh_softdevice_init.c,  112, Initializing SoftDevice...
+<t:          0>, mesh_softdevice_init.c,   77, Enabling BLE...
+<t:          2>, mesh_softdevice_init.c,   88, Ram base: 0x200032C8
+<t:        567>, main.c,  235, Initializing and adding models
+<t:       5439>, main.c,  291, Device UUID : 434954590000000097D21FC7618A675F
+<t:    2506054>, main.c,  203, Successfully provisioned
+<t:    2506056>, main.c,  207, Node Address: 0x39F8 
+<t:    2538828>, main.c,  153, There is still no data in data_store 
+<t:    2571596>, main.c,  153, There is still no data in data_store 
+<t:    2604364>, main.c,  153, There is still no data in data_store 
+<t:    2637132>, main.c,  153, There is still no data in data_store 
+<t:    2669900>, main.c,  153, There is still no data in data_store 
+<t:    2702668>, main.c,  153, There is still no data in data_store 
+<t:    2735436>, main.c,  153, There is still no data in data_store 
+<t:    2768204>, main.c,  153, There is still no data in data_store 
+<t:    2800972>, main.c,  153, There is still no data in data_store 
+<t:    2833740>, main.c,  153, There is still no data in data_store 
+<t:    2866508>, main.c,  153, There is still no data in data_store 
+<t:    2899276>, main.c,  153, There is still no data in data_store 
+<t:    2932044>, main.c,  153, There is still no data in data_store 
+<t:    2964812>, main.c,  153, There is still no data in data_store 
+<t:    2997580>, main.c,  153, There is still no data in data_store 
+<t:    3030348>, main.c,  153, There is still no data in data_store 
+<t:    3063116>, main.c,  153, There is still no data in data_store 
+<t:    3095884>, main.c,  153, There is still no data in data_store 
+<t:    3128652>, main.c,  153, There is still no data in data_store 
+<t:    3161420>, main.c,  153, There is still no data in data_store 
+<t:    3194188>, main.c,  153, There is still no data in data_store 
+<t:    3226956>, main.c,  153, There is still no data in data_store 
+<t:    3259724>, main.c,  153, There is still no data in data_store 
+<t:    3292492>, main.c,  153, There is still no data in data_store 
+<t:    3325260>, main.c,  153, There is still no data in data_store 
+<t:    3358028>, main.c,  153, There is still no data in data_store 
+<t:    3390796>, main.c,  153, There is still no data in data_store 
+<t:    3423564>, main.c,  153, There is still no data in data_store 
+<t:    3456332>, main.c,  153, There is still no data in data_store 
+<t:    3489100>, main.c,  153, There is still no data in data_store 
+<t:    3521868>, main.c,  153, There is still no data in data_store 
+<t:    3554636>, main.c,  153, There is still no data in data_store 
+<t:    3587404>, main.c,  153, There is still no data in data_store 
+<t:    3620172>, main.c,  153, There is still no data in data_store 
+<t:    3652940>, main.c,  153, There is still no data in data_store 
+<t:    3685708>, main.c,  153, There is still no data in data_store 
+<t:    3718476>, main.c,  153, There is still no data in data_store 
+<t:    3751244>, main.c,  153, There is still no data in data_store 
+<t:    3784012>, main.c,  153, There is still no data in data_store 
+<t:    3816780>, main.c,  153, There is still no data in data_store 
+<t:    3849548>, main.c,  153, There is still no data in data_store 
+<t:    3882316>, main.c,  153, There is still no data in data_store 
+<t:    3915084>, main.c,  153, There is still no data in data_store 
+<t:    3947852>, main.c,  153, There is still no data in data_store 
+<t:    3980620>, main.c,  153, There is still no data in data_store 
+<t:    4013388>, main.c,  153, There is still no data in data_store 
+<t:    4046156>, main.c,  153, There is still no data in data_store 
+<t:    4078924>, main.c,  153, There is still no data in data_store 
+<t:    4111692>, main.c,  153, There is still no data in data_store 
+<t:    4144460>, main.c,  153, There is still no data in data_store 
+<t:    4177228>, main.c,  153, There is still no data in data_store 
+<t:    4209996>, main.c,  153, There is still no data in data_store 
+<t:    4242764>, main.c,  153, There is still no data in data_store 
+<t:    4275532>, main.c,  153, There is still no data in data_store 
+<t:    4308300>, main.c,  153, There is still no data in data_store 
+<t:    4341068>, main.c,  153, There is still no data in data_store 
+<t:    4373836>, main.c,  153, There is still no data in data_store 
+<t:    4406604>, main.c,  153, There is still no data in data_store 
+<t:    4439372>, main.c,  153, There is still no data in data_store 
+<t:    4472140>, main.c,  153, There is still no data in data_store 
+<t:    4504908>, main.c,  153, There is still no data in data_store 
+<t:    4537676>, main.c,  153, There is still no data in data_store 
+<t:    4570444>, main.c,  153, There is still no data in data_store 
+<t:    4603212>, main.c,  153, There is still no data in data_store 
+<t:    4635980>, main.c,  153, There is still no data in data_store 
+<t:    4668748>, main.c,  153, There is still no data in data_store 
+<t:    4701516>, main.c,  153, There is still no data in data_store 
+<t:    4734284>, main.c,  153, There is still no data in data_store 
+<t:    4767052>, main.c,  153, There is still no data in data_store 
+<t:    4799820>, main.c,  153, There is still no data in data_store 
+<t:    4832588>, main.c,  153, There is still no data in data_store 
+<t:    4865356>, main.c,  153, There is still no data in data_store 
+<t:    4898124>, main.c,  153, There is still no data in data_store 
+<t:    4930892>, main.c,  153, There is still no data in data_store 
+<t:    4963660>, main.c,  153, There is still no data in data_store 
+<t:    4996428>, main.c,  153, There is still no data in data_store 
+<t:    5029196>, main.c,  153, There is still no data in data_store 
+<t:    5061964>, main.c,  153, There is still no data in data_store 
+<t:    5094732>, main.c,  153, There is still no data in data_store 
+<t:    5127500>, main.c,  153, There is still no data in data_store 
+<t:    5160268>, main.c,  153, There is still no data in data_store 
+<t:    5193036>, main.c,  153, There is still no data in data_store 
+<t:    5225804>, main.c,  153, There is still no data in data_store 
+<t:    5258572>, main.c,  153, There is still no data in data_store 
+<t:    5291340>, main.c,  153, There is still no data in data_store 
+<t:    5324108>, main.c,  153, There is still no data in data_store 
+<t:    5356876>, main.c,  153, There is still no data in data_store 
+<t:    5389644>, main.c,  153, There is still no data in data_store 
+<t:    5422412>, main.c,  153, There is still no data in data_store 
+<t:    5455180>, main.c,  153, There is still no data in data_store 
+<t:    5487948>, main.c,  153, There is still no data in data_store 
+<t:    5520716>, main.c,  153, There is still no data in data_store 
+<t:    5553484>, main.c,  153, There is still no data in data_store 
+<t:    5582345>, main.c,   81, Got a SIMPLE_SMART_CITY_SET message from t_light 0x7AF7 with state 0x0 
+<t:    5584656>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5586252>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5586256>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5598433>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    5610829>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    5615200>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5619020>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5619025>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5631558>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    5631563>, main.c,   96, Message not stored 
+<t:    5643306>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    5643310>, main.c,   96, Message not stored 
+<t:    5647765>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5651788>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5651793>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5651797>, main.c,   96, Message not stored 
+<t:    5675840>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    5679940>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    5679945>, main.c,   96, Message not stored 
+<t:    5680782>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5684556>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5684561>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5708927>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    5717324>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5717328>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5728898>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5744965>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    5744970>, main.c,   96, Message not stored 
+<t:    5750092>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5750097>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5750101>, main.c,   96, Message not stored 
+<t:    5774424>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    5774428>, main.c,   96, Message not stored 
+<t:    5778324>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    5779002>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5779007>, main.c,   96, Message not stored 
+<t:    5782860>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5782865>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5782869>, main.c,   96, Message not stored 
+<t:    5795579>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    5808488>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    5811773>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5815628>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5815634>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5815638>, main.c,   96, Message not stored 
+<t:    5828125>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    5840095>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    5848396>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5848401>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5860619>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5860624>, main.c,   96, Message not stored 
+<t:    5860797>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    5873057>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    5876915>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5881164>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5881168>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5881173>, main.c,   96, Message not stored 
+<t:    5913932>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5913936>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5922464>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    5927861>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5938381>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    5941934>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    5946700>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5946704>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5958396>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5958477>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    5975703>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    5975708>, main.c,   96, Message not stored 
+<t:    5979468>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    5979472>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    5986853>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    5986857>, main.c,   96, Message not stored 
+<t:    6007243>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6007248>, main.c,   96, Message not stored 
+<t:    6008215>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6008219>, main.c,   96, Message not stored 
+<t:    6012236>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6012240>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6024010>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6036279>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    6045004>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6045008>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6045013>, main.c,   96, Message not stored 
+<t:    6055402>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6057551>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6069774>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    6073914>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6077772>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6077777>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6077781>, main.c,   96, Message not stored 
+<t:    6101917>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    6101922>, main.c,   96, Message not stored 
+<t:    6102581>, main.c,  105, Got a SIMPLE_SMART_CITY_GET message. Nothing to say
+<t:    6110540>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6110545>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6110549>, main.c,   96, Message not stored 
+<t:    6134743>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    6138962>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6139124>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6143308>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6143313>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6155344>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6167988>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    6176076>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6176081>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6187767>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6187772>, main.c,   96, Message not stored 
+<t:    6201184>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    6208844>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6208849>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6220826>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6220831>, main.c,   96, Message not stored 
+<t:    6233117>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    6236844>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6236849>, main.c,   96, Message not stored 
+<t:    6241612>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6241617>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6241621>, main.c,   96, Message not stored 
+<t:    6254369>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6254374>, main.c,   96, Message not stored 
+<t:    6266754>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    6274380>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6274384>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6274389>, main.c,   96, Message not stored 
+<t:    6286781>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6286785>, main.c,   96, Message not stored 
+<t:    6286948>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6298440>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x3F03 saying t_light 0x7AF7 was state 0x0 
+<t:    6298444>, main.c,   96, Message not stored 
+<t:    6307148>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6307153>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6307157>, main.c,   96, Message not stored 
+<t:    6320726>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6320730>, main.c,   96, Message not stored 
+<t:    6334116>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6339916>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6339920>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6352224>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6352245>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6352250>, main.c,   96, Message not stored 
+<t:    6368607>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6372684>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6372689>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6384565>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6384570>, main.c,   96, Message not stored 
+<t:    6401682>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6401686>, main.c,   96, Message not stored 
+<t:    6405452>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6405456>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6417974>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6433975>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6438220>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6438224>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6438249>, main.c,  160, Requesting a SIMPLE_SMART_CITY_GET message 
+<t:    6438252>, main.c,  105, Got a SIMPLE_SMART_CITY_GET message. Nothing to say
+<t:    6443257>, main.c,   81, Got a SIMPLE_SMART_CITY_SET message from t_light 0x7AF7 with state 0x0 
+<t:    6449934>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6470988>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6470994>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6470998>, main.c,   96, Message not stored 
+<t:    6483661>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6498968>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6498972>, main.c,   96, Message not stored 
+<t:    6503756>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6503760>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6503765>, main.c,   96, Message not stored 
+<t:    6516108>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6532831>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6536524>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6536528>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6549107>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6565429>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6569292>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6569296>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6581824>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6597781>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6602060>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6602064>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6602070>, main.c,   96, Message not stored 
+<t:    6613912>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6630949>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6630953>, main.c,   96, Message not stored 
+<t:    6634828>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6634833>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6634837>, main.c,   96, Message not stored 
+<t:    6663723>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6667596>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6667601>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6667605>, main.c,   96, Message not stored 
+<t:    6696408>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6700364>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6700368>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6700373>, main.c,   96, Message not stored 
+<t:    6712587>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6712591>, main.c,   96, Message not stored 
+<t:    6729489>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6733132>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6733137>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6733141>, main.c,   96, Message not stored 
+<t:    6745666>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6745671>, main.c,   96, Message not stored 
+<t:    6765900>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6765905>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6765909>, main.c,   96, Message not stored 
+<t:    6776519>, main.c,  105, Got a SIMPLE_SMART_CITY_GET message. Nothing to say
+<t:    6777557>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6794697>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6798668>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6798672>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6798677>, main.c,   96, Message not stored 
+<t:    6811236>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6828366>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6831436>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6831441>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6831726>, main.c,   81, Got a SIMPLE_SMART_CITY_SET message from t_light 0x7AF7 with state 0x0 
+<t:    6843264>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6859907>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6864204>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6864209>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6876809>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6896972>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6896976>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6908634>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6908639>, main.c,   96, Message not stored 
+<t:    6925255>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6925259>, main.c,   96, Message not stored 
+<t:    6925967>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6929740>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6929744>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6958617>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6962508>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6962513>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6974362>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    6974367>, main.c,   96, Message not stored 
+<t:    6991222>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    6995276>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    6995280>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    6995285>, main.c,   96, Message not stored 
+<t:    7007500>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7007505>, main.c,   96, Message not stored 
+<t:    7023654>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7028044>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7028049>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7028053>, main.c,   96, Message not stored 
+<t:    7055761>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7055766>, main.c,   96, Message not stored 
+<t:    7056814>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7060812>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7060816>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7060821>, main.c,   96, Message not stored 
+<t:    7072678>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7072682>, main.c,   96, Message not stored 
+<t:    7090034>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7093580>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7093585>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7093589>, main.c,   96, Message not stored 
+<t:    7105457>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7105461>, main.c,   96, Message not stored 
+<t:    7122583>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7126348>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7126352>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7126357>, main.c,   96, Message not stored 
+<t:    7138551>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7138556>, main.c,   96, Message not stored 
+<t:    7155146>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7159116>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7159121>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7159125>, main.c,   96, Message not stored 
+<t:    7171223>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7171228>, main.c,   96, Message not stored 
+<t:    7191884>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7191889>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7204591>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7220315>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7224652>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7224657>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7236932>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7236937>, main.c,   96, Message not stored 
+<t:    7253110>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7253115>, main.c,   96, Message not stored 
+<t:    7257420>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7257424>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7270044>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7290188>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7290193>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7318733>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7322956>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7322960>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7322965>, main.c,   96, Message not stored 
+<t:    7334202>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7350251>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7350255>, main.c,   96, Message not stored 
+<t:    7351700>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7355724>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7355728>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7355733>, main.c,   96, Message not stored 
+<t:    7368249>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7383966>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7383971>, main.c,   96, Message not stored 
+<t:    7388492>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7388497>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7401130>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7401134>, main.c,   96, Message not stored 
+<t:    7417091>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7417095>, main.c,   96, Message not stored 
+<t:    7421260>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7421264>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7433623>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    7454028>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7454033>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    7454037>, main.c,   96, Message not stored 
+<t:    7466301>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    7486796>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    7486800>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+--------------------------------------------------------------------------------------------------------------------------
+<t:    8023107>, main.c,   96, Message not stored 
+<t:    8032607>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8039823>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8043852>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8043857>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8055565>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8055570>, main.c,   96, Message not stored 
+<t:    8072389>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8076620>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8076625>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8076629>, main.c,   96, Message not stored 
+<t:    8086913>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8103833>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8103838>, main.c,   96, Message not stored 
+<t:    8109388>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8109392>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8109397>, main.c,   96, Message not stored 
+<t:    8120002>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8121927>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8121975>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8121980>, main.c,   96, Message not stored 
+<t:    8142156>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8142160>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8153448>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8153452>, main.c,   96, Message not stored 
+<t:    8163574>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8170578>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8174924>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8174928>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8186018>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8186022>, main.c,   96, Message not stored 
+<t:    8196158>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8196163>, main.c,   96, Message not stored 
+<t:    8202664>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8203118>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8203122>, main.c,   96, Message not stored 
+<t:    8207692>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8207697>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8207701>, main.c,   96, Message not stored 
+<t:    8218730>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8236089>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8240460>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8240464>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8270313>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8273228>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8273233>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8273237>, main.c,   96, Message not stored 
+<t:    8276219>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8283886>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8285417>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8285421>, main.c,   96, Message not stored 
+<t:    8294083>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8294088>, main.c,   96, Message not stored 
+<t:    8305996>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8306000>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8333505>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8333534>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8338764>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8338768>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8366489>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8371532>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8371537>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8371541>, main.c,   96, Message not stored 
+<t:    8376110>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8381991>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8381995>, main.c,   96, Message not stored 
+<t:    8382663>, main.c,  105, Got a SIMPLE_SMART_CITY_GET message. Nothing to say
+<t:    8383774>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8384171>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8384175>, main.c,   96, Message not stored 
+<t:    8392736>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8392741>, main.c,   96, Message not stored 
+<t:    8400127>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8404300>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8404304>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8404309>, main.c,   96, Message not stored 
+<t:    8404330>, main.c,  160, Requesting a SIMPLE_SMART_CITY_GET message 
+<t:    8404334>, main.c,  105, Got a SIMPLE_SMART_CITY_GET message. Nothing to say
+<t:    8405006>, main.c,   81, Got a SIMPLE_SMART_CITY_SET message from t_light 0x7AF7 with state 0x0 
+<t:    8415655>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8419562>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8419567>, main.c,   96, Message not stored 
+<t:    8425422>, main.c,   81, Got a SIMPLE_SMART_CITY_SET message from t_light 0x7AF7 with state 0x0 
+<t:    8428005>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8432484>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8437068>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8437073>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8448045>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8458020>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8458025>, main.c,   96, Message not stored 
+<t:    8465973>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8469836>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8469840>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8480289>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8481882>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8490768>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8502604>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8502609>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8513489>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8516798>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8527181>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8530940>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8532174>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8535372>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8535376>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8540372>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8540376>, main.c,   96, Message not stored 
+<t:    8546062>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8546066>, main.c,   96, Message not stored 
+<t:    8547331>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8549969>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8549974>, main.c,   96, Message not stored 
+<t:    8568140>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8568144>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8568149>, main.c,   96, Message not stored 
+<t:    8590431>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8590435>, main.c,   96, Message not stored 
+<t:    8595853>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8600908>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8600913>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8600917>, main.c,   96, Message not stored 
+<t:    8611112>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8613403>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8613408>, main.c,   96, Message not stored 
+<t:    8627328>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8633676>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8633681>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8644719>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8644723>, main.c,   96, Message not stored 
+<t:    8660374>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8663473>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8666444>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8666448>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8666453>, main.c,   96, Message not stored 
+<t:    8678591>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8678595>, main.c,   96, Message not stored 
+<t:    8687316>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8693859>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8699212>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8699216>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8720520>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8726886>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8727833>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8727837>, main.c,   96, Message not stored 
+<t:    8731980>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8731984>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8744354>, main.c,  105, Got a SIMPLE_SMART_CITY_GET message. Nothing to say
+<t:    8759716>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8764748>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8764753>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8764757>, main.c,   96, Message not stored 
+<t:    8765934>, main.c,   81, Got a SIMPLE_SMART_CITY_SET message from t_light 0x7AF7 with state 0x0 
+<t:    8769277>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8791249>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8791574>, main.c,  105, Got a SIMPLE_SMART_CITY_GET message. Nothing to say
+<t:    8791868>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8791872>, main.c,   96, Message not stored 
+<t:    8797516>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8797520>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8809865>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8809869>, main.c,   96, Message not stored 
+<t:    8818803>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8818808>, main.c,   96, Message not stored 
+<t:    8825723>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8826398>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8830284>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8830289>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8830293>, main.c,   96, Message not stored 
+<t:    8842794>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8851771>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8860250>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8860254>, main.c,   96, Message not stored 
+<t:    8863052>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8863057>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8890025>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8895820>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8895824>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8907968>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8915455>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8915459>, main.c,   96, Message not stored 
+<t:    8922533>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8922538>, main.c,   96, Message not stored 
+<t:    8928588>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8928592>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8928597>, main.c,   96, Message not stored 
+<t:    8939247>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8939805>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8949440>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    8961356>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8961360>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8971922>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    8973501>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8973533>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8975948>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    8989512>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    8994124>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    8994129>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    8997995>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9004680>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9005714>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9008369>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9017364>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9026892>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9026896>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9037815>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9038403>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9038408>, main.c,   96, Message not stored 
+<t:    9041594>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9048364>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9056348>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9059660>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9059665>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9070733>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9089327>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9092428>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9092433>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9096532>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9103536>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9121306>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9125196>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9125200>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9125205>, main.c,   96, Message not stored 
+<t:    9130145>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9146617>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9152492>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9153747>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9157964>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9157969>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9179193>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9179197>, main.c,   96, Message not stored 
+<t:    9187219>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9187223>, main.c,   96, Message not stored 
+<t:    9190732>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9190736>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9217498>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9217503>, main.c,   96, Message not stored 
+<t:    9219149>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9223500>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9223504>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9223509>, main.c,   96, Message not stored 
+<t:    9250263>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9250269>, main.c,   96, Message not stored 
+<t:    9252091>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9256268>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9256273>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9256277>, main.c,   96, Message not stored 
+<t:    9260123>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9283646>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9289036>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9289040>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9293837>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9301456>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9301460>, main.c,   96, Message not stored 
+<t:    9317041>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9317045>, main.c,   96, Message not stored 
+<t:    9320206>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9321804>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9321809>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9332139>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9343115>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9350656>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9350660>, main.c,   96, Message not stored 
+<t:    9354572>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9354577>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9366045>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9366050>, main.c,   96, Message not stored 
+<t:    9375992>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9375997>, main.c,   96, Message not stored 
+<t:    9382338>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9383579>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9387340>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9387345>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9398585>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9398590>, main.c,   96, Message not stored 
+<t:    9414926>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9417017>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9420108>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9420113>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9431958>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9431962>, main.c,   96, Message not stored 
+<t:    9440974>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9440979>, main.c,   96, Message not stored 
+<t:    9452876>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9452880>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9473814>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9473818>, main.c,   96, Message not stored 
+<t:    9480059>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9480063>, main.c,   96, Message not stored 
+<t:    9482677>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9482683>, main.c,   96, Message not stored 
+<t:    9485644>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9485648>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9497428>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9507060>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9514464>, main.c,   81, Got a SIMPLE_SMART_CITY_SET message from t_light 0x7AF7 with state 0x2 
+<t:    9518412>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:    9518417>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:    9518421>, main.c,   96, Message not stored 
+<t:    9546305>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x0 
+<t:    9546662>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9551180>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9551185>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9580548>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:    9583948>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9583952>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9587115>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9587119>, main.c,   96, Message not stored 
+<t:    9595813>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:    9611910>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:    9616716>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9616721>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9619774>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:    9628298>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:    9637635>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9649484>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:    9649489>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:    9661629>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:    9661634>, main.c,   96, Message not stored 
+<t:    9662608>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:    9678783>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9682252>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:    9682257>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:    9692474>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:    9692479>, main.c,   96, Message not stored 
+<t:    9694273>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9703312>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9703316>, main.c,   96, Message not stored 
+<t:    9706141>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x0 
+<t:    9706145>, main.c,   96, Message not stored 
+<t:    9715020>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9715024>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9715029>, main.c,   96, Message not stored 
+<t:    9725716>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:    9727652>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:    9735776>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:    9735780>, main.c,   96, Message not stored 
+<t:    9743245>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:    9745606>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x0 
+<t:    9745733>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:    9747788>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:    9747793>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:    9747797>, main.c,   96, Message not stored 
+<t:    9780556>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x00 
+<t:    9780561>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x0 
+<t:    9793491>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9793496>, main.c,   96, Message not stored 
+<t:    9801791>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:    9809038>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:    9809160>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:    9809164>, main.c,   96, Message not stored 
+<t:    9809332>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:    9809336>, main.c,   96, Message not stored 
+<t:    9813324>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:    9813328>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:    9813333>, main.c,   96, Message not stored 
+<t:    9813639>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:    9813643>, main.c,   96, Message not stored 
+<t:    9834089>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:    9834094>, main.c,   96, Message not stored 
+<t:    9841906>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:    9841911>, main.c,   96, Message not stored 
+<t:    9843037>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:    9846092>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:    9846096>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:    9846101>, main.c,   96, Message not stored 
+<t:    9847007>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x0 
+<t:    9856779>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:    9861836>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:    9868248>, main.c,  105, Got a SIMPLE_SMART_CITY_GET message. Nothing to say
+<t:    9878860>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:    9878864>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:    9882927>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:    9882932>, main.c,   96, Message not stored 
+<t:    9907299>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:    9911628>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:    9911632>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:    9911637>, main.c,   96, Message not stored 
+<t:    9923414>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:    9932324>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:    9938227>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:    9940379>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:    9940384>, main.c,   96, Message not stored 
+<t:    9944396>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:    9944401>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:    9944405>, main.c,   96, Message not stored 
+<t:    9955938>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:    9966049>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:    9966053>, main.c,   96, Message not stored 
+<t:    9977164>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:    9977168>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:    9977173>, main.c,   96, Message not stored 
+<t:   10005720>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:   10009932>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10009936>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10009941>, main.c,   96, Message not stored 
+<t:   10042700>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10042704>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10047409>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10047414>, main.c,   96, Message not stored 
+<t:   10055126>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:   10063459>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10063463>, main.c,   96, Message not stored 
+<t:   10071285>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:   10071289>, main.c,   96, Message not stored 
+<t:   10075468>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10075472>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10075477>, main.c,   96, Message not stored 
+<t:   10087560>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:   10087565>, main.c,   96, Message not stored 
+<t:   10096308>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10101186>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10101191>, main.c,   96, Message not stored 
+<t:   10102751>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:   10102756>, main.c,   96, Message not stored 
+<t:   10108236>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10108240>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10108245>, main.c,   96, Message not stored 
+<t:   10119183>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:   10120046>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:   10131511>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10135534>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:   10135538>, main.c,   96, Message not stored 
+<t:   10141004>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10141009>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10141013>, main.c,   96, Message not stored 
+<t:   10152674>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:   10152679>, main.c,   96, Message not stored 
+<t:   10161747>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10164393>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10164398>, main.c,   96, Message not stored 
+<t:   10167951>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:   10167956>, main.c,   96, Message not stored 
+<t:   10170367>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:   10170371>, main.c,   96, Message not stored 
+<t:   10173772>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10173776>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10173781>, main.c,   96, Message not stored 
+<t:   10184815>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:   10206540>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10206544>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10206549>, main.c,   96, Message not stored 
+<t:   10217514>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:   10217519>, main.c,   96, Message not stored 
+<t:   10227288>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10232403>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10232407>, main.c,   96, Message not stored 
+<t:   10234718>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:   10234722>, main.c,   96, Message not stored 
+<t:   10239308>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10239312>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10239317>, main.c,   96, Message not stored 
+<t:   10260001>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10266812>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:   10266817>, main.c,   96, Message not stored 
+<t:   10267717>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:   10267721>, main.c,   96, Message not stored 
+<t:   10272076>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10272081>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10272086>, main.c,   96, Message not stored 
+<t:   10283631>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:   10283695>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:   10293139>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10297209>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10297213>, main.c,   96, Message not stored 
+<t:   10300584>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:   10300589>, main.c,   96, Message not stored 
+<t:   10304844>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10304849>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10304853>, main.c,   96, Message not stored 
+<t:   10312443>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10315704>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:   10315709>, main.c,   96, Message not stored 
+<t:   10331747>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:   10331751>, main.c,   96, Message not stored 
+<t:   10337612>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10337617>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10337621>, main.c,   96, Message not stored 
+<t:   10349912>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:   10349917>, main.c,   96, Message not stored 
+<t:   10370380>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10370385>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10370390>, main.c,  160, Requesting a SIMPLE_SMART_CITY_GET message 
+<t:   10370393>, main.c,  105, Got a SIMPLE_SMART_CITY_GET message. Nothing to say
+<t:   10373587>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10373591>, main.c,   96, Message not stored 
+<t:   10382604>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FA saying t_light 0x7AF7 was state 0x2 
+<t:   10389519>, main.c,   81, Got a SIMPLE_SMART_CITY_SET message from t_light 0x7AF7 with state 0x2 
+<t:   10403148>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10403153>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 
+<t:   10407797>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10407802>, main.c,   96, Message not stored 
+<t:   10414543>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F9 saying t_light 0x7AF7 was state 0x2 
+<t:   10424809>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39FB saying t_light 0x7AF7 was state 0x2 
+<t:   10424813>, main.c,   96, Message not stored 
+<t:   10433122>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x1A80 saying t_light 0x7AF7 was state 0x2 
+<t:   10433127>, main.c,   96, Message not stored 
+<t:   10435916>, main.c,  149, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x7AF7 state eguals to 0x02 
+<t:   10435921>, main.c,   88, Got a SIMPLE_SMART_CITY_SHARE message from 0x39F8 saying t_light 0x7AF7 was state 0x2 

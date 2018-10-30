@@ -1,0 +1,110 @@
+<t:          0>, main.c,  468, ----- BLE Mesh Light Switch Provisioner Demo -----
+<t:          0>, mesh_softdevice_init.c,  112, Initializing SoftDevice...
+<t:          0>, mesh_softdevice_init.c,   77, Enabling BLE...
+<t:          2>, mesh_softdevice_init.c,   88, Ram base: 0x200032C8
+<t:        562>, main.c,  406, Initializing and adding models
+<t:        566>, main.c,  449, Setup defaults: Adding keys, addresses, and bindings 
+<t:        771>, provisioner_helper.c,  329, netkey_handle: 0
+<t:        785>, main.c,  491, <start> 
+<t:        787>, main.c,  478, Starting application ...
+<t:        789>, main.c,  480, Provisoned Nodes: 0, Configured Nodes: 0 Next Address: 0x0100
+<t:        793>, main.c,  481, Dev key : 007CBA002F02088EF30EAF982E8EA239
+<t:        796>, main.c,  482, Net key : 237673839B41337E29D68AE91EE29E22
+<t:        800>, main.c,  483, App key : 69B2C0890EEE517968E17647693B78CD
+<t:        802>, main.c,  484, Provisioning will start in five seconds
+<t:     164646>, main.c,  389, Provisionamento iniciado
+<t:     164648>, main.c,  315, Waiting for device to be provisioned ...
+<t:     169443>, provisioner_helper.c,  282, Scanning For Unprovisioned Devices
+<t:     360257>, provisioner_helper.c,  144, UUID seen: 0059FFFF000000000815851A53ABBA53
+<t:     360261>, provisioner_helper.c,   95, UUID filter matched
+<t:     360669>, provisioner_helper.c,  259, Provisioning link established
+<t:     374784>, provisioner_helper.c,  254, Static authentication data provided
+<t:     387200>, provisioner_helper.c,  192, Provisioning completed received
+<t:     387203>, provisioner_helper.c,  197, Adding device address, and device keys
+<t:     387207>, provisioner_helper.c,  214, Addr: 0x0100 addr_handle: 0 netkey_handle: 0 devkey_handle: 2
+<t:     390773>, provisioner_helper.c,  155, Local provisioning link closed: prov_state: 2  remaining retries: 2
+<t:     390777>, main.c,  242, Provisioning successful
+<t:     390779>, provisioner_helper.c,  181, Provisioning complete. Node addr: 0x0100 elements: 1
+<t:     390783>, node_setup.c,  487, Configuring Node: 0x0100
+<t:     390786>, node_setup.c,  372, Config client setup: devkey_handle:2 addr_handle:0
+<t:     390789>, node_setup.c,  231, Getting composition data
+<t:     393204>, main.c,  288, Config client event
+<t:     393207>, node_setup.c,  418, Captured Data Composition: : 5900000000002000010000000201000002005900110000
+<t:     393211>, node_setup.c,  436, Captured Element Header: : 00000201
+<t:     393214>, node_setup.c,  437, Captured Vendor Model Count: 1
+<t:     393216>, node_setup.c,  442, Model ID # 0: 0x0011
+<t:     393219>, node_setup.c,  241, Adding appkey
+<t:     396912>, main.c,  288, Config client event
+<t:     396914>, node_setup.c,  194, opcode status field: 0 
+<t:     396916>, node_setup.c,  252, App key bind: Health server
+<t:     397652>, main.c,  288, Config client event
+<t:     397654>, node_setup.c,  194, opcode status field: 0 
+<t:     397656>, node_setup.c,  267, App key bind: Smart City Semaforo Service
+<t:     398426>, main.c,  288, Config client event
+<t:     398428>, node_setup.c,  194, opcode status field: 2 
+<t:     398430>, main.c,  235, Configuration of device 0 failed. Retrying in five seconds 
+<t:     562275>, main.c,  389, Provisionamento iniciado
+<t:     562277>, main.c,  306, Waiting for provisioned node to be configured ...
+<t:     562280>, node_setup.c,  487, Configuring Node: 0x0100
+<t:     562283>, node_setup.c,  372, Config client setup: devkey_handle:2 addr_handle:0
+<t:     562286>, node_setup.c,  231, Getting composition data
+<t:     564650>, main.c,  288, Config client event
+<t:     564652>, node_setup.c,  418, Captured Data Composition: : 5900000000002000010000000201000002005900110000
+<t:     564656>, node_setup.c,  436, Captured Element Header: : 00000201
+<t:     564659>, node_setup.c,  437, Captured Vendor Model Count: 1
+<t:     564661>, node_setup.c,  442, Model ID # 0: 0x0011
+<t:     564664>, node_setup.c,  241, Adding appkey
+<t:     568311>, main.c,  288, Config client event
+<t:     568313>, node_setup.c,  194, opcode status field: 0 
+<t:     568316>, node_setup.c,  252, App key bind: Health server
+<t:     569023>, main.c,  288, Config client event
+<t:     569025>, node_setup.c,  194, opcode status field: 0 
+<t:     569028>, node_setup.c,  267, App key bind: Smart City Semaforo Service
+<t:     569997>, main.c,  288, Config client event
+<t:     569999>, node_setup.c,  194, opcode status field: 2 
+<t:     570001>, main.c,  235, Configuration of device 0 failed. Retrying in five seconds 
+<t:     733847>, main.c,  389, Provisionamento iniciado
+<t:     733849>, main.c,  306, Waiting for provisioned node to be configured ...
+<t:     733852>, node_setup.c,  487, Configuring Node: 0x0100
+<t:     733855>, node_setup.c,  372, Config client setup: devkey_handle:2 addr_handle:0
+<t:     733858>, node_setup.c,  231, Getting composition data
+<t:     736496>, main.c,  288, Config client event
+<t:     736499>, node_setup.c,  418, Captured Data Composition: : 5900000000002000010000000201000002005900110000
+<t:     736502>, node_setup.c,  436, Captured Element Header: : 00000201
+<t:     736505>, node_setup.c,  437, Captured Vendor Model Count: 1
+<t:     736508>, node_setup.c,  442, Model ID # 0: 0x0011
+<t:     736510>, node_setup.c,  241, Adding appkey
+<t:     739876>, main.c,  288, Config client event
+<t:     739878>, node_setup.c,  194, opcode status field: 0 
+<t:     739880>, node_setup.c,  252, App key bind: Health server
+<t:     740700>, main.c,  288, Config client event
+<t:     740703>, node_setup.c,  194, opcode status field: 0 
+<t:     740705>, node_setup.c,  267, App key bind: Smart City Semaforo Service
+<t:     767734>, main.c,  288, Config client event
+<t:     767736>, node_setup.c,  194, opcode status field: 2 
+<t:     767739>, main.c,  235, Configuration of device 0 failed. Retrying in five seconds 
+<t:     931584>, main.c,  389, Provisionamento iniciado
+<t:     931586>, main.c,  306, Waiting for provisioned node to be configured ...
+<t:     931589>, node_setup.c,  487, Configuring Node: 0x0100
+<t:     931592>, node_setup.c,  372, Config client setup: devkey_handle:2 addr_handle:0
+<t:     931595>, node_setup.c,  231, Getting composition data
+<t:     934082>, main.c,  288, Config client event
+<t:     934085>, node_setup.c,  418, Captured Data Composition: : 5900000000002000010000000201000002005900110000
+<t:     934088>, node_setup.c,  436, Captured Element Header: : 00000201
+<t:     934091>, node_setup.c,  437, Captured Vendor Model Count: 1
+<t:     934094>, node_setup.c,  442, Model ID # 0: 0x0011
+<t:     934096>, node_setup.c,  241, Adding appkey
+<t:     937386>, main.c,  288, Config client event
+<t:     937388>, node_setup.c,  194, opcode status field: 0 
+<t:     937391>, node_setup.c,  252, App key bind: Health server
+<t:     938061>, main.c,  288, Config client event
+<t:     938064>, node_setup.c,  194, opcode status field: 0 
+<t:     938066>, node_setup.c,  267, App key bind: Smart City Semaforo Service
+<t:     938933>, main.c,  288, Config client event
+<t:     938935>, node_setup.c,  194, opcode status field: 2 
+<t:     938938>, main.c,  235, Configuration of device 0 failed. Retrying in five seconds 
+<t:    1102783>, main.c,  389, Provisionamento iniciado
+<t:    1102785>, main.c,  306, Waiting for provisioned node to be configured ...
+<t:    1102788>, node_setup.c,  487, Configuring Node: 0x0100
+<t:    1102791>, node_setup.c,  372, Config client setup: devkey_handle:2 addr_handle:0
+<t:    1102794>, node_setup.c,  231, Getting composition data

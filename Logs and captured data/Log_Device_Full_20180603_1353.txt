@@ -1,0 +1,8 @@
+<t:          0>, main.c,  284, ----- BLE Mesh Traffic Light Full Demo -----
+<t:          0>, mesh_softdevice_init.c,  112, Initializing SoftDevice...
+<t:          0>, mesh_softdevice_init.c,   77, Enabling BLE...
+<t:          2>, mesh_softdevice_init.c,   88, Ram base: 0x200032C8
+<t:        591>, main.c,  251, Initializing and adding models
+<t:       5456>, main.c,  307, Device UUID : 0059FFFF0000000097D21FC7618A675F
+<t:     773282>, main.c,  218, Successfully provisioned
+<t:     773284>, main.c,  222, Node Address: 0x0101 

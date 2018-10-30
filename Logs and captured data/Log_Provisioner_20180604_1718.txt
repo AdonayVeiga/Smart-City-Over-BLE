@@ -1,0 +1,60 @@
+<t:          0>, main.c,  459, ----- BLE Mesh Light Switch Provisioner Demo -----
+<t:          0>, mesh_softdevice_init.c,  112, Initializing SoftDevice...
+<t:          0>, mesh_softdevice_init.c,   77, Enabling BLE...
+<t:          1>, mesh_softdevice_init.c,   88, Ram base: 0x200032C8
+<t:        559>, main.c,  397, Initializing and adding models
+<t:        563>, main.c,  440, Setup defaults: Adding keys, addresses, and bindings 
+<t:        758>, provisioner_helper.c,  329, netkey_handle: 0
+<t:        773>, main.c,  484, <start> 
+<t:        774>, main.c,  469, Starting application ...
+<t:        777>, main.c,  471, Provisoned Nodes: 0, Configured Nodes: 0 Next Address: 0x0100
+<t:        781>, main.c,  472, Dev key : CC0544EB467F431C61ABE65801A8F4BC
+<t:        784>, main.c,  473, Net key : 4E0796BBE84FBD1B6ACB93EE3680302B
+<t:        788>, main.c,  474, App key : 32F7FEC808732C2AAC97DD1FE78E4726
+<t:        790>, main.c,  475, Provisioning will start in five seconds
+<t:     164635>, main.c,  380, Provisionamento iniciado
+<t:     164637>, main.c,  306, Waiting for device to be provisioned ...
+<t:     169395>, provisioner_helper.c,  282, Scanning For Unprovisioned Devices
+<t:     169400>, provisioner_helper.c,  144, UUID seen: 0059FFFF00000000C74373985854CB3F
+<t:     169403>, provisioner_helper.c,   95, UUID filter matched
+<t:     169981>, provisioner_helper.c,  259, Provisioning link established
+<t:     182865>, provisioner_helper.c,  254, Static authentication data provided
+<t:     194949>, provisioner_helper.c,  192, Provisioning completed received
+<t:     194952>, provisioner_helper.c,  197, Adding device address, and device keys
+<t:     194956>, provisioner_helper.c,  214, Addr: 0x0100 addr_handle: 0 netkey_handle: 0 devkey_handle: 2
+<t:     199380>, provisioner_helper.c,  155, Local provisioning link closed: prov_state: 2  remaining retries: 2
+<t:     199384>, main.c,  234, Provisioning successful
+<t:     199386>, provisioner_helper.c,  181, Provisioning complete. Node addr: 0x0100 elements: 1
+<t:     199389>, node_setup.c,  466, Configuring Node: 0x0100
+<t:     199392>, node_setup.c,  380, Config client setup: devkey_handle:2 addr_handle:0
+<t:     199396>, node_setup.c,  252, Getting composition data
+<t:     201652>, main.c,  279, Config client event
+<t:     201654>, node_setup.c,  262, Adding appkey
+<t:     204643>, main.c,  279, Config client event
+<t:     204645>, node_setup.c,  193, opcode status field: 0 
+<t:     204648>, node_setup.c,  273, App key bind: Health server
+<t:     206161>, main.c,  279, Config client event
+<t:     206163>, node_setup.c,  193, opcode status field: 0 
+<t:     206165>, node_setup.c,  288, App key bind: Smart City Semaforo Service
+<t:     206928>, main.c,  279, Config client event
+<t:     206930>, node_setup.c,  193, opcode status field: 0 
+<t:     206932>, node_setup.c,  316, Setting publication address for the health server to 0x0001
+<t:     210118>, main.c,  279, Config client event
+<t:     210120>, node_setup.c,  193, opcode status field: 0 
+<t:     210123>, node_setup.c,  222, Set: smart city device: 0x0100  pub addr: 0x011E
+<t:     214110>, main.c,  279, Config client event
+<t:     214112>, node_setup.c,  193, opcode status field: 0 
+<t:     214115>, node_setup.c,  327, Adding subscription
+<t:     216062>, main.c,  279, Config client event
+<t:     216064>, node_setup.c,  193, opcode status field: 0 
+<t:     216067>, main.c,  207, Configuration of device 0 successful
+<t:     216070>, provisioner_helper.c,  282, Scanning For Unprovisioned Devices
+<t:     536071>, main.c,  258, Node 0x0100 alive with 0 active fault(s), RSSI: -55
+<t:     863606>, main.c,  258, Node 0x0100 alive with 0 active fault(s), RSSI: -51
+<t:    1191215>, main.c,  258, Node 0x0100 alive with 0 active fault(s), RSSI: -53
+<t:    1519132>, main.c,  258, Node 0x0100 alive with 0 active fault(s), RSSI: -55
+<t:    1846336>, main.c,  258, Node 0x0100 alive with 0 active fault(s), RSSI: -51
+<t:    2174195>, main.c,  258, Node 0x0100 alive with 0 active fault(s), RSSI: -54
+<t:    2502246>, main.c,  258, Node 0x0100 alive with 0 active fault(s), RSSI: -56
+<t:    2829478>, main.c,  258, Node 0x0100 alive with 0 active fault(s), RSSI: -52
+<t:    3157433>, main.c,  258, Node 0x0100 alive with 0 active fault(s), RSSI: -55

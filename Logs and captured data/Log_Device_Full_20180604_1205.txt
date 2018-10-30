@@ -1,0 +1,74 @@
+<t:          0>, main.c,  290, ----- BLE Mesh Traffic Light Full Demo -----
+<t:          0>, mesh_softdevice_init.c,  112, Initializing SoftDevice...
+<t:          0>, mesh_softdevice_init.c,   77, Enabling BLE...
+<t:          2>, mesh_softdevice_init.c,   88, Ram base: 0x200032C8
+<t:        594>, main.c,  257, Initializing and adding models
+<t:       5467>, main.c,  313, Device UUID : 0059FFFF0000000097D21FC7618A675F
+<t:      37309>, main.c,  224, Successfully provisioned
+<t:      37311>, main.c,  228, Node Address: 0x0100 
+<t:      70083>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     102851>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     135619>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     168387>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     201155>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     233923>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     266691>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     299459>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     332227>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x508E state eguals to 0x03 
+<t:     364995>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x6449 state eguals to 0x00 
+<t:     397763>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0100 state eguals to 0x00 
+<t:     430531>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     463299>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     496067>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     528835>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x527E state eguals to 0x00 
+<t:     561603>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0xFC96 state eguals to 0x03 
+<t:     594371>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x3E3D state eguals to 0x00 
+<t:     627139>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     659907>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x3751 state eguals to 0x00 
+<t:     692675>, main.c,  160, Sending a SIMPLE_SMART_CITY_SET message with state 0x0 
+<t:     692685>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x5638 state eguals to 0x00 
+<t:     725443>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0080 state eguals to 0x00 
+<t:     758211>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x4E20 state eguals to 0x00 
+<t:     790979>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     823747>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x64C9 state eguals to 0x00 
+<t:     856515>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x6CEE state eguals to 0x00 
+<t:     889283>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     922051>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:     954819>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0xEC95 state eguals to 0x00 
+<t:     987587>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0xB17C state eguals to 0x00 
+<t:    1020355>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x6AAF state eguals to 0x03 
+<t:    1053123>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x002F state eguals to 0x00 
+<t:    1085891>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0xA8EE state eguals to 0x03 
+<t:    1118659>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x000E state eguals to 0x00 
+<t:    1151427>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0EA2 state eguals to 0x02 
+<t:    1184195>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x6653 state eguals to 0x01 
+<t:    1216963>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0xFCD2 state eguals to 0x01 
+<t:    1249731>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:    1282499>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:    1315267>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:    1348035>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x37E0 state eguals to 0x00 
+<t:    1380803>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x888E state eguals to 0x00 
+<t:    1413571>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x6B15 state eguals to 0x02 
+<t:    1446339>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x5B56 state eguals to 0x03 
+<t:    1479107>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0xF1EA state eguals to 0x02 
+<t:    1511875>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x6E34 state eguals to 0x03 
+<t:    1544643>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x3023 state eguals to 0x00 
+<t:    1577411>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x1138 state eguals to 0x02 
+<t:    1610179>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x6653 state eguals to 0x01 
+<t:    1642947>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x6EB4 state eguals to 0x01 
+<t:    1675715>, main.c,  160, Sending a SIMPLE_SMART_CITY_SET message with state 0x0 
+<t:    1675725>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x4876 state eguals to 0x01 
+<t:    1708483>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0xAAFB state eguals to 0x01 
+<t:    1741251>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:    1774019>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:    1806787>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:    1839555>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x351E state eguals to 0x01 
+<t:    1872323>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x3135 state eguals to 0x01 
+<t:    1905091>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0xD511 state eguals to 0x00 
+<t:    1937859>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0000 state eguals to 0x00 
+<t:    1970627>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x8A61 state eguals to 0x01 
+<t:    2003395>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0001 state eguals to 0x00 
+<t:    2003406>, main.c,  179, Requesting a SIMPLE_SMART_CITY_GET message 
+<t:    2036163>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0004 state eguals to 0x00 
+<t:    2068931>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0001 state eguals to 0x00 
+<t:    2101699>, main.c,  171, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x0009 state eguals to 0x00 

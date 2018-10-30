@@ -1,0 +1,69 @@
+<t:          0>, main.c,  468, ----- BLE Mesh Light Switch Provisioner Demo -----
+<t:          0>, mesh_softdevice_init.c,  112, Initializing SoftDevice...
+<t:          0>, mesh_softdevice_init.c,   77, Enabling BLE...
+<t:          1>, mesh_softdevice_init.c,   88, Ram base: 0x200032C8
+<t:        581>, main.c,  406, Initializing and adding models
+<t:        585>, main.c,  449, Setup defaults: Adding keys, addresses, and bindings 
+<t:        780>, provisioner_helper.c,  329, netkey_handle: 0
+<t:        795>, main.c,  491, <start> 
+<t:        796>, main.c,  478, Starting application ...
+<t:        799>, main.c,  480, Provisoned Nodes: 0, Configured Nodes: 0 Next Address: 0x0100
+<t:        803>, main.c,  481, Dev key : B94BB69776414F7C0F948CF37BFC57CC
+<t:        806>, main.c,  482, Net key : 7B4585D14A9FD8A09FA5F33FF122C7DB
+<t:        810>, main.c,  483, App key : 30D4E3CC8BBB917210F58A1899964705
+<t:        812>, main.c,  484, Provisioning will start in five seconds
+<t:     164657>, main.c,  389, Provisionamento iniciado
+<t:     164659>, main.c,  315, Waiting for device to be provisioned ...
+<t:     169423>, provisioner_helper.c,  282, Scanning For Unprovisioned Devices
+<t:     220706>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:     286357>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:     352131>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:     417728>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:     483279>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:     548919>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:     614702>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:     680534>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:     746284>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:     811963>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:     877519>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:     943175>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:    1008841>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:    1074439>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:    1091209>, provisioner_helper.c,  144, UUID seen: 0059FFFF0000000099196B3166E39239
+<t:    1091212>, provisioner_helper.c,   95, UUID filter matched
+<t:    1091475>, provisioner_helper.c,  259, Provisioning link established
+<t:    1105085>, provisioner_helper.c,  254, Static authentication data provided
+<t:    1116370>, provisioner_helper.c,  192, Provisioning completed received
+<t:    1116373>, provisioner_helper.c,  197, Adding device address, and device keys
+<t:    1116377>, provisioner_helper.c,  214, Addr: 0x0100 addr_handle: 0 netkey_handle: 0 devkey_handle: 2
+<t:    1119771>, provisioner_helper.c,  155, Local provisioning link closed: prov_state: 2  remaining retries: 2
+<t:    1119776>, main.c,  242, Provisioning successful
+<t:    1119778>, provisioner_helper.c,  181, Provisioning complete. Node addr: 0x0100 elements: 1
+<t:    1119782>, node_setup.c,  559, Configuring Node: 0x0100
+<t:    1119785>, node_setup.c,  384, Config client setup: devkey_handle:2 addr_handle:0
+<t:    1119788>, node_setup.c,  243, Getting composition data
+<t:    1122214>, main.c,  288, Config client event
+<t:    1122217>, node_setup.c,  497, Captured Data Composition: : {5900 0000 0000 2000 0100} {{0000 02 01} {0000 0200} {59001100} 00}
+<t:    1122221>, node_setup.c,  253, Adding appkey
+<t:    1125494>, main.c,  288, Config client event
+<t:    1125497>, node_setup.c,  206, opcode status field: 0 
+<t:    1125499>, node_setup.c,  264, App key bind: Health server
+<t:    1126461>, main.c,  288, Config client event
+<t:    1126463>, node_setup.c,  206, opcode status field: 0 
+<t:    1126466>, node_setup.c,  307, Setting publication address for the health server to 0x0001
+<t:    1129672>, main.c,  288, Config client event
+<t:    1129674>, node_setup.c,  206, opcode status field: 0 
+<t:    1129677>, node_setup.c,  407, Captured Element Header: : 00000201
+<t:    1129679>, node_setup.c,  410, This element has  1 personalized models
+<t:    1129682>, node_setup.c,  424, Model id 0x0011 is not a smart_city_model. Ignoring
+<t:    1129686>, node_setup.c,  424, Model id 0x0000 is not a smart_city_model. Ignoring
+<t:    1129689>, node_setup.c,  435, Captured Element Header: : 00000000
+<t:    1129692>, node_setup.c,  437, This element has  0 personalized models
+<t:    1129694>, node_setup.c,  446, All models parsed
+<t:    1129697>, main.c,  207, Configuration of device 0 successful
+<t:    1129699>, provisioner_helper.c,  282, Scanning For Unprovisioned Devices
+<t:    1140136>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:    1205851>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:    1271461>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:    1337165>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD
+<t:    1402900>, provisioner_helper.c,  144, UUID seen: 0059ABCDEFABCDEFACCDEFABCDEFABCD

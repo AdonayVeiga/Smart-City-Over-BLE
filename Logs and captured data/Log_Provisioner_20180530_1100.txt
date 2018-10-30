@@ -1,0 +1,44 @@
+<t:          0>, main.c,  459, ----- BLE Mesh Light Switch Provisioner Demo -----
+<t:          0>, mesh_softdevice_init.c,  112, Initializing SoftDevice...
+<t:          0>, mesh_softdevice_init.c,   77, Enabling BLE...
+<t:          1>, mesh_softdevice_init.c,   88, Ram base: 0x200032C8
+<t:        582>, main.c,  397, Initializing and adding models
+<t:        616>, main.c,  373, Restored: App data
+<t:        619>, main.c,  449, Restored: Handles 
+<t:        621>, provisioner_helper.c,  301, m_netkey_handle:0 m_appkey_handle:0 m_self_devkey_handle:1
+<t:        630>, main.c,  484, <start> 
+<t:        710>, main.c,  469, Starting application ...
+<t:        712>, main.c,  471, Provisoned Nodes: 0, Configured Nodes: 0 Next Address: 0x0100
+<t:        716>, main.c,  472, Dev key : D719291D0C58813ABF0A5063B25A108E
+<t:        719>, main.c,  473, Net key : A78E1D8DCE5015FCCF4EFBD4D9259991
+<t:        722>, main.c,  474, App key : 4E10BA498DDC178450E2AF70B024130B
+<t:        725>, main.c,  475, Provisioning will start in five seconds<t:     164569>, main.c,  380, Provisionamento iniciado<t:     164571>, main.c,  306, Waiting for Server node to be provisioned ...
+<t:     169326>, provisioner_helper.c,  282, Scanning For Unprovisioned Devices
+<t:     192703>, provisioner_helper.c,  144, UUID seen: 0059FFFF00000000C74373985854CB3F
+<t:     192706>, provisioner_helper.c,   95, UUID filter matched
+<t:     193540>, provisioner_helper.c,  259, Provisioning link established
+<t:     207083>, provisioner_helper.c,  254, Static authentication data provided
+<t:     218892>, provisioner_helper.c,  192, Provisioning completed received
+<t:     218895>, provisioner_helper.c,  197, Adding device address, and device keys
+<t:     218900>, provisioner_helper.c,  214, Addr: 0x0100 addr_handle: 0 netkey_handle: 0 devkey_handle: 2
+<t:     222440>, provisioner_helper.c,  155, Local provisioning link closed: prov_state: 2  remaining retries: 2
+<t:     222444>, main.c,  234, Provisioning successful
+<t:     222447>, provisioner_helper.c,  181, Provisioning complete. Node addr: 0x0100 elements: 1
+<t:     222450>, node_setup.c,  466, Configuring Node: 0x0100
+<t:     222453>, node_setup.c,  380, Config client setup: devkey_handle:2 addr_handle:0
+<t:     222457>, node_setup.c,  252, Getting composition data
+<t:     222522>, main.c,   76, Flash write complete
+<t:     274593>, main.c,  279, Config client event
+<t:     274595>, node_setup.c,  262, Adding appkey
+<t:     277333>, main.c,  279, Config client event
+<t:     277336>, node_setup.c,  155, Unexpected opcode: exp 0x8003  rx 0x0002
+<t:     279127>, main.c,  279, Config client event
+<t:     279129>, node_setup.c,  193, opcode status field: 0 
+<t:     279131>, node_setup.c,  273, App key bind: Health server
+<t:     279786>, main.c,  279, Config client event
+<t:     279788>, node_setup.c,  193, opcode status field: 0 
+<t:     279791>, node_setup.c,  288, App key bind: Smart City Semaforo Service
+<t:     280562>, main.c,  279, Config client event
+<t:     280564>, node_setup.c,  193, opcode status field: 2 
+<t:     280567>, main.c,  228, Configuration of device 0 failed. Press Button 1 to retry.
+

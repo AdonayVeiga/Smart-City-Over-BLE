@@ -1,0 +1,59 @@
+<t:          0>, main.c,  468, ----- BLE Mesh Light Switch Provisioner Demo -----
+<t:          0>, mesh_softdevice_init.c,  112, Initializing SoftDevice...
+<t:          0>, mesh_softdevice_init.c,   77, Enabling BLE...
+<t:          2>, mesh_softdevice_init.c,   88, Ram base: 0x200032C8
+<t:        554>, main.c,  406, Initializing and adding models
+<t:        558>, main.c,  449, Setup defaults: Adding keys, addresses, and bindings 
+<t:        630>, provisioner_helper.c,  334, netkey_handle: 0
+<t:        644>, main.c,  492, <start> 
+<t:        646>, main.c,  479, Starting application ...
+<t:        648>, main.c,  481, Provisoned Nodes: 0, Configured Nodes: 0 Next Address: 0x0100
+<t:        653>, main.c,  482, Dev key : B1C288A75F8213260F7F877435EB0E73
+<t:        656>, main.c,  483, Net key : 2A1B03CCA317EAD8C67A5A7F1C1BA162
+<t:        659>, main.c,  484, App key : E1CB25762D04DECAC5D7CA8497719439
+<t:        662>, main.c,  485, Provisioning will start in five seconds
+<t:     164506>, main.c,  389, Provisionamento iniciado
+<t:     164508>, main.c,  315, Waiting for device to be provisioned ...
+<t:     169266>, provisioner_helper.c,  285, Scanning For Unprovisioned Devices
+<t:     198042>, provisioner_helper.c,  147, UUID seen: 434954590000000099196B3166E39239
+<t:     198046>, provisioner_helper.c,   98, UUID filter matched
+<t:     199380>, provisioner_helper.c,  262, Provisioning link established
+<t:     278196>, provisioner_helper.c,  257, Static authentication data provided
+<t:     289869>, provisioner_helper.c,  195, Provisioning completed received
+<t:     289872>, provisioner_helper.c,  200, Adding device address, and device keys
+<t:     289876>, provisioner_helper.c,  217, Addr: 0x0100 addr_handle: 0 netkey_handle: 0 devkey_handle: 2
+<t:     293201>, provisioner_helper.c,  158, Local provisioning link closed: prov_state: 2  remaining retries: 2
+<t:     293205>, main.c,  242, Provisioning successful
+<t:     293207>, provisioner_helper.c,  184, Provisioning complete. Node addr: 0x0100 elements: 1
+<t:     293211>, node_setup.c,  568, Configuring Node: 0x0100
+<t:     293214>, node_setup.c,  383, Config client setup: devkey_handle:2 addr_handle:0
+<t:     293217>, node_setup.c,  243, Getting composition data
+<t:     295573>, main.c,  288, Config client event
+<t:     295575>, node_setup.c,  506, Captured Data Composition: : 590000000000200001000000020100000200590001C000
+<t:     295580>, node_setup.c,  253, Adding appkey
+<t:     299183>, main.c,  288, Config client event
+<t:     299186>, node_setup.c,  206, opcode status field: 0 
+<t:     299188>, node_setup.c,  264, App key bind: Health server
+<t:     300678>, main.c,  288, Config client event
+<t:     300681>, node_setup.c,  206, opcode status field: 0 
+<t:     300683>, node_setup.c,  307, Setting publication address for the health server to 0x0001
+<t:     304195>, main.c,  288, Config client event
+<t:     304198>, node_setup.c,  206, opcode status field: 0 
+<t:     304200>, node_setup.c,  411, Captured Element Header: : 00000201
+<t:     304203>, node_setup.c,  412, This element has  1 personalized models
+<t:     304206>, node_setup.c,  447, Captured Model ID: 0xC001 
+<t:     304209>, node_setup.c,  459, Configurando modelo 0xC001
+<t:     304211>, node_setup.c,  279, App key bind: Smart City Service
+<t:     306029>, main.c,  288, Config client event
+<t:     306032>, node_setup.c,  206, opcode status field: 0 
+<t:     306034>, node_setup.c,  349, Set: smart city device: 0x0100  pub addr: 0xC001
+<t:     309152>, main.c,  288, Config client event
+<t:     309155>, node_setup.c,  206, opcode status field: 0 
+<t:     309157>, node_setup.c,  325, Set: smart city device: 0x0100  sub addr: 0xC001
+<t:     311003>, main.c,  288, Config client event
+<t:     311005>, node_setup.c,  206, opcode status field: 0 
+<t:     311008>, node_setup.c,  421, Captured Element Header: : 00000000
+<t:     311011>, node_setup.c,  422, This element has  0 personalized models
+<t:     311013>, node_setup.c,  455, All models parsed
+<t:     311016>, main.c,  207, Configuration of device 0 successful
+<t:     311018>, provisioner_helper.c,  285, Scanning For Unprovisioned Devices

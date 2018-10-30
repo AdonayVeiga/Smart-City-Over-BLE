@@ -1,0 +1,70 @@
+<t:          0>, main.c,  302, ----- BLE Mesh Traffic Light Full Demo -----
+<t:          0>, mesh_softdevice_init.c,  112, Initializing SoftDevice...
+<t:          0>, mesh_softdevice_init.c,   77, Enabling BLE...
+<t:          2>, mesh_softdevice_init.c,   88, Ram base: 0x200032C8
+<t:        574>, main.c,  269, Initializing and adding models
+<t:       5452>, main.c,  325, Device UUID : 434954590000000097D21FC7618A675F
+<t:       5455>, main.c,  327, Sensor ID: 0x675F
+<t:     646811>, main.c,  237, Successfully provisioned
+<t:     646813>, main.c,  241, Node Address: 0x0283 
+<t:     679585>, main.c,  185, There is still no data in data_store 
+<t:     712353>, main.c,  185, There is still no data in data_store 
+<t:     745121>, main.c,  185, There is still no data in data_store 
+<t:     777889>, main.c,  185, There is still no data in data_store 
+<t:     810657>, main.c,  185, There is still no data in data_store 
+<t:     843425>, main.c,  185, There is still no data in data_store 
+<t:     876193>, main.c,  185, There is still no data in data_store 
+<t:     908961>, main.c,  185, There is still no data in data_store 
+<t:     941729>, main.c,  185, There is still no data in data_store 
+<t:     974497>, main.c,  185, There is still no data in data_store 
+<t:    1007265>, main.c,  185, There is still no data in data_store 
+<t:    1040033>, main.c,  185, There is still no data in data_store 
+<t:    1072801>, main.c,  185, There is still no data in data_store 
+<t:    1105569>, main.c,  185, There is still no data in data_store 
+<t:    1138337>, main.c,  185, There is still no data in data_store 
+<t:    1171105>, main.c,  185, There is still no data in data_store 
+<t:    1203873>, main.c,  185, There is still no data in data_store 
+<t:    1236641>, main.c,  185, There is still no data in data_store 
+<t:    1269409>, main.c,  185, There is still no data in data_store 
+<t:    1302177>, main.c,  168, Sending a SIMPLE_SMART_CITY_SET message with state 0x0 
+<t:    1302181>, main.c,   80, Got a SIMPLE_SMART_CITY_SET message from t_light 0x675F with state 0x0 
+<t:    1302203>, main.c,  180, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x675F state eguals to 0x00 
+<t:    1302208>, main.c,  181, Message content: : {{00000000 16ED0E5B, 59573FC2 8E507DC1}, 5F67, 7800}
+<t:    1302211>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0283 saying t_light 0x675F was state 0x0 
+<t:    1302216>, main.c,   95, Message not stored 
+<t:    1334945>, main.c,  180, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x675F state eguals to 0x00 
+<t:    1334950>, main.c,  181, Message content: : 0000000016ED0E5B59573FC28E507DC15F677800
+<t:    1334953>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0283 saying t_light 0x675F was state 0x0 
+<t:    1334958>, main.c,   95, Message not stored 
+<t:    1367713>, main.c,  180, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x675F state eguals to 0x00 
+<t:    1367717>, main.c,  181, Message content: : 0000000016ED0E5B59573FC28E507DC15F677800
+<t:    1367721>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0283 saying t_light 0x675F was state 0x0 
+<t:    1367725>, main.c,   95, Message not stored 
+<t:    1400481>, main.c,  180, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x675F state eguals to 0x00 
+<t:    1400486>, main.c,  181, Message content: : 0000000016ED0E5B59573FC28E507DC15F677800
+<t:    1400489>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0283 saying t_light 0x675F was state 0x0 
+<t:    1400494>, main.c,   95, Message not stored 
+<t:    1433249>, main.c,  180, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x675F state eguals to 0x00 
+<t:    1433253>, main.c,  181, Message content: : 0000000016ED0E5B59573FC28E507DC15F677800
+<t:    1433257>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0283 saying t_light 0x675F was state 0x0 
+<t:    1433261>, main.c,   95, Message not stored 
+<t:    1466017>, main.c,  180, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x675F state eguals to 0x00 
+<t:    1466022>, main.c,  181, Message content: : 0000000016ED0E5B59573FC28E507DC15F677800
+<t:    1466025>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0283 saying t_light 0x675F was state 0x0 
+<t:    1466030>, main.c,   95, Message not stored 
+<t:    1498785>, main.c,  180, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x675F state eguals to 0x00 
+<t:    1498789>, main.c,  181, Message content: : 0000000016ED0E5B59573FC28E507DC15F677800
+<t:    1498793>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0283 saying t_light 0x675F was state 0x0 
+<t:    1498797>, main.c,   95, Message not stored 
+<t:    1531553>, main.c,  180, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x675F state eguals to 0x00 
+<t:    1531558>, main.c,  181, Message content: : 0000000016ED0E5B59573FC28E507DC15F677800
+<t:    1531561>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0283 saying t_light 0x675F was state 0x0 
+<t:    1531566>, main.c,   95, Message not stored 
+<t:    1564321>, main.c,  180, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x675F state eguals to 0x00 
+<t:    1564325>, main.c,  181, Message content: : 0000000016ED0E5B59573FC28E507DC15F677800
+<t:    1564329>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0283 saying t_light 0x675F was state 0x0 
+<t:    1564333>, main.c,   95, Message not stored 
+<t:    1597089>, main.c,  180, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x675F state eguals to 0x00 
+<t:    1597094>, main.c,  181, Message content: : 0000000016ED0E5B59573FC28E507DC15F677800
+<t:    1597097>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0283 saying t_light 0x675F was state 0x0 
+<t:    1597102>, main.c,   95, Message not stored 

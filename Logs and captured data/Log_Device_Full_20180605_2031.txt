@@ -1,0 +1,498 @@
+<t:    2911100>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    2911104>, main.c,   95, Message not stored 
+<t:    2911125>, main.c,  183, nRF status equals to 0x0000 
+<t:    2943863>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    2943868>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    2943890>, main.c,  183, nRF status equals to 0x0000 
+<t:    2945409>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    2976631>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    2976635>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    2976640>, main.c,   95, Message not stored 
+<t:    2976660>, main.c,  183, nRF status equals to 0x0000 
+<t:    2978491>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3009399>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3009404>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3009408>, main.c,   95, Message not stored 
+<t:    3009429>, main.c,  183, nRF status equals to 0x0000 
+<t:    3012231>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3042167>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3042172>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3042176>, main.c,   95, Message not stored 
+<t:    3042196>, main.c,  183, nRF status equals to 0x0000 
+<t:    3043710>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3074935>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3074940>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3074944>, main.c,   95, Message not stored 
+<t:    3074965>, main.c,  183, nRF status equals to 0x0000 
+<t:    3077066>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3107703>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3107707>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3107712>, main.c,   95, Message not stored 
+<t:    3107732>, main.c,  183, nRF status equals to 0x0000 
+<t:    3109441>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3140471>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3140476>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3140480>, main.c,   95, Message not stored 
+<t:    3140501>, main.c,  183, nRF status equals to 0x0000 
+<t:    3142166>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3173239>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3173244>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3173248>, main.c,   95, Message not stored 
+<t:    3173268>, main.c,  183, nRF status equals to 0x0000 
+<t:    3175134>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3206007>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3206012>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3206016>, main.c,   95, Message not stored 
+<t:    3206037>, main.c,  183, nRF status equals to 0x0000 
+<t:    3208214>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3238775>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3238779>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3238784>, main.c,   95, Message not stored 
+<t:    3238804>, main.c,  183, nRF status equals to 0x0000 
+<t:    3255639>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3271543>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3271548>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3271552>, main.c,   95, Message not stored 
+<t:    3271573>, main.c,  183, nRF status equals to 0x0000 
+<t:    3273322>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3304311>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3304316>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3304320>, main.c,   95, Message not stored 
+<t:    3304341>, main.c,  183, nRF status equals to 0x0000 
+<t:    3305697>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3337079>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3337084>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3337088>, main.c,   95, Message not stored 
+<t:    3337109>, main.c,  183, nRF status equals to 0x0000 
+<t:    3338427>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3369847>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3369851>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3369856>, main.c,   95, Message not stored 
+<t:    3369877>, main.c,  183, nRF status equals to 0x0000 
+<t:    3371367>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3402615>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3402620>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3402624>, main.c,   95, Message not stored 
+<t:    3402645>, main.c,  183, nRF status equals to 0x0000 
+<t:    3404338>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3435383>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3435388>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3435392>, main.c,   95, Message not stored 
+<t:    3435413>, main.c,  183, nRF status equals to 0x0000 
+<t:    3437198>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3468151>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3468156>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3468160>, main.c,   95, Message not stored 
+<t:    3468181>, main.c,  183, nRF status equals to 0x0000 
+<t:    3469929>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3500928>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3500933>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3500937>, main.c,   95, Message not stored 
+<t:    3500959>, main.c,  183, nRF status equals to 0x0000 
+<t:    3502465>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3533687>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3533692>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3533696>, main.c,   95, Message not stored 
+<t:    3533717>, main.c,  183, nRF status equals to 0x0000 
+<t:    3535204>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3566455>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3566460>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3566464>, main.c,   95, Message not stored 
+<t:    3566486>, main.c,  183, nRF status equals to 0x0000 
+<t:    3568044>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3599223>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3599228>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3599232>, main.c,   95, Message not stored 
+<t:    3599253>, main.c,  183, nRF status equals to 0x0000 
+<t:    3601159>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3631991>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3631995>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3632000>, main.c,   95, Message not stored 
+<t:    3632021>, main.c,  183, nRF status equals to 0x0000 
+<t:    3633813>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3664759>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3664764>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3664768>, main.c,   95, Message not stored 
+<t:    3664789>, main.c,  183, nRF status equals to 0x0000 
+<t:    3666231>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3697527>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3697532>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3697536>, main.c,   95, Message not stored 
+<t:    3697557>, main.c,  183, nRF status equals to 0x0000 
+<t:    3699117>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3730295>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3730300>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3730305>, main.c,   95, Message not stored 
+<t:    3730325>, main.c,  183, nRF status equals to 0x0000 
+<t:    3732037>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3763063>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3763067>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3763072>, main.c,   95, Message not stored 
+<t:    3763092>, main.c,  183, nRF status equals to 0x0000 
+<t:    3764444>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3795831>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3795836>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3795840>, main.c,   95, Message not stored 
+<t:    3795861>, main.c,  183, nRF status equals to 0x0000 
+<t:    3797641>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3804756>, main.c,   80, Got a SIMPLE_SMART_CITY_SET message from t_light 0x010F with state 0x0 
+<t:    3828599>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3828604>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3828627>, main.c,  183, nRF status equals to 0x0000 
+<t:    3830110>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3861367>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3861372>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3861395>, main.c,  183, nRF status equals to 0x0000 
+<t:    3878120>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3894136>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3894140>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3894164>, main.c,  183, nRF status equals to 0x0000 
+<t:    3895692>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3895696>, main.c,   95, Message not stored 
+<t:    3926903>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3926908>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3926930>, main.c,  183, nRF status equals to 0x0000 
+<t:    3944046>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3959671>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3959675>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3959698>, main.c,  183, nRF status equals to 0x0000 
+<t:    3976915>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    3992439>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    3992444>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    3992448>, main.c,   95, Message not stored 
+<t:    3992469>, main.c,  183, nRF status equals to 0x0000 
+<t:    3992472>, main.c,  193, Requesting a SIMPLE_SMART_CITY_GET message 
+<t:    3992475>, main.c,  104, Replying a SIMPLE_SMART_CITY_GET message with state 0x0 
+<t:    3992479>, main.c,   80, Got a SIMPLE_SMART_CITY_SET message from t_light 0x010F with state 0x0 
+<t:    4025207>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4025212>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4025235>, main.c,  183, nRF status equals to 0x0000 
+<t:    4057975>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4057980>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4058003>, main.c,  183, nRF status equals to 0x0000 
+<t:    4080714>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4090743>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4090748>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4090771>, main.c,  183, nRF status equals to 0x0000 
+<t:    4092704>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4123511>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4123516>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4123540>, main.c,  183, nRF status equals to 0x0000 
+<t:    4142056>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4156279>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4156284>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4156288>, main.c,   95, Message not stored 
+<t:    4156309>, main.c,  183, nRF status equals to 0x0000 
+<t:    4158443>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4189047>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4189052>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4189056>, main.c,   95, Message not stored 
+<t:    4189077>, main.c,  183, nRF status equals to 0x0000 
+<t:    4190930>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4221815>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4221820>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4221824>, main.c,   95, Message not stored 
+<t:    4221845>, main.c,  183, nRF status equals to 0x0000 
+<t:    4239509>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4254583>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4254587>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4254592>, main.c,   95, Message not stored 
+<t:    4254613>, main.c,  183, nRF status equals to 0x0000 
+<t:    4255800>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4287351>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4287356>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4287360>, main.c,   95, Message not stored 
+<t:    4287381>, main.c,  183, nRF status equals to 0x0000 
+<t:    4304838>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4320119>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4320124>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4320128>, main.c,   95, Message not stored 
+<t:    4320149>, main.c,  183, nRF status equals to 0x0000 
+<t:    4322110>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4352887>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4352892>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4352896>, main.c,   95, Message not stored 
+<t:    4352917>, main.c,  183, nRF status equals to 0x0000 
+<t:    4354125>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4385655>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4385659>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4385664>, main.c,   95, Message not stored 
+<t:    4385685>, main.c,  183, nRF status equals to 0x0000 
+<t:    4387556>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4418423>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4418428>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4418432>, main.c,   95, Message not stored 
+<t:    4418453>, main.c,  183, nRF status equals to 0x0000 
+<t:    4435685>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4451191>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4451196>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4451200>, main.c,   95, Message not stored 
+<t:    4451221>, main.c,  183, nRF status equals to 0x0000 
+<t:    4452420>, main.c,   80, Got a SIMPLE_SMART_CITY_SET message from t_light 0x010F with state 0x2 
+<t:    4456581>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4483959>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4483964>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4483986>, main.c,  183, nRF status equals to 0x0000 
+<t:    4501720>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    4516727>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4516731>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4516755>, main.c,  183, nRF status equals to 0x0000 
+<t:    4549495>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4549499>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4549522>, main.c,  183, nRF status equals to 0x0000 
+<t:    4567480>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    4582263>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4582268>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4582272>, main.c,   95, Message not stored 
+<t:    4582293>, main.c,  183, nRF status equals to 0x0000 
+<t:    4584125>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4615031>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4615036>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4615040>, main.c,   95, Message not stored 
+<t:    4615061>, main.c,  183, nRF status equals to 0x0000 
+<t:    4616472>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    4647799>, main.c,  168, Sending a SIMPLE_SMART_CITY_SET message with state 0x2 
+<t:    4647803>, main.c,   80, Got a SIMPLE_SMART_CITY_SET message from t_light 0x010F with state 0x2 
+<t:    4647825>, main.c,  170, nRF status equals to 0x0000 
+<t:    4647827>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4647833>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4647852>, main.c,  183, nRF status equals to 0x0000 
+<t:    4680567>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4680572>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4680576>, main.c,  183, nRF status equals to 0x0004 
+<t:    4681975>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    4681980>, main.c,   95, Message not stored 
+<t:    4684571>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4713335>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4713340>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4713344>, main.c,   95, Message not stored 
+<t:    4713365>, main.c,  183, nRF status equals to 0x0000 
+<t:    4714634>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4714639>, main.c,   95, Message not stored 
+<t:    4746103>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4746108>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4746131>, main.c,  183, nRF status equals to 0x0000 
+<t:    4747948>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    4778871>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4778876>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4778899>, main.c,  183, nRF status equals to 0x0000 
+<t:    4795855>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    4811639>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4811644>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4811648>, main.c,   95, Message not stored 
+<t:    4811669>, main.c,  183, nRF status equals to 0x0000 
+<t:    4812995>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    4844407>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4844412>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4844416>, main.c,   95, Message not stored 
+<t:    4844436>, main.c,  183, nRF status equals to 0x0000 
+<t:    4845692>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    4877175>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    4877180>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    4877184>, main.c,   95, Message not stored 
+<t:    4877205>, main.c,  183, nRF status equals to 0x0000 
+<t:    4879145>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    4909943>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4909947>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4909970>, main.c,  183, nRF status equals to 0x0000 
+<t:    4911525>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    4911529>, main.c,   95, Message not stored 
+<t:    4942711>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4942716>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4942739>, main.c,  183, nRF status equals to 0x0000 
+<t:    4960623>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    4975479>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    4975484>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    4975508>, main.c,  183, nRF status equals to 0x0000 
+<t:    4977138>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5008247>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5008252>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5008256>, main.c,   95, Message not stored 
+<t:    5008277>, main.c,  183, nRF status equals to 0x0000 
+<t:    5026008>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5041015>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5041020>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5041024>, main.c,   95, Message not stored 
+<t:    5041044>, main.c,  183, nRF status equals to 0x0000 
+<t:    5042744>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5073783>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5073788>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5073792>, main.c,   95, Message not stored 
+<t:    5073813>, main.c,  183, nRF status equals to 0x0000 
+<t:    5075076>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5106551>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5106555>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5106560>, main.c,   95, Message not stored 
+<t:    5106580>, main.c,  183, nRF status equals to 0x0000 
+<t:    5107969>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5139319>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5139324>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5139328>, main.c,   95, Message not stored 
+<t:    5139349>, main.c,  183, nRF status equals to 0x0000 
+<t:    5157266>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5172087>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5172092>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5172096>, main.c,   95, Message not stored 
+<t:    5172116>, main.c,  183, nRF status equals to 0x0000 
+<t:    5173687>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5204855>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5204860>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5204864>, main.c,   95, Message not stored 
+<t:    5204885>, main.c,  183, nRF status equals to 0x0000 
+<t:    5206189>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5237623>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5237627>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5237632>, main.c,   95, Message not stored 
+<t:    5237652>, main.c,  183, nRF status equals to 0x0000 
+<t:    5238852>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5270391>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5270396>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5270400>, main.c,   95, Message not stored 
+<t:    5270421>, main.c,  183, nRF status equals to 0x0000 
+<t:    5287235>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5303159>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5303164>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5303168>, main.c,   95, Message not stored 
+<t:    5303189>, main.c,  183, nRF status equals to 0x0000 
+<t:    5304774>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5335927>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5335932>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5335936>, main.c,   95, Message not stored 
+<t:    5335957>, main.c,  183, nRF status equals to 0x0000 
+<t:    5337133>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5368695>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5368699>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5368704>, main.c,   95, Message not stored 
+<t:    5368725>, main.c,  183, nRF status equals to 0x0000 
+<t:    5370028>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5401463>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5401468>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5401472>, main.c,   95, Message not stored 
+<t:    5401493>, main.c,  183, nRF status equals to 0x0000 
+<t:    5402968>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5434231>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5434236>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5434240>, main.c,   95, Message not stored 
+<t:    5434261>, main.c,  183, nRF status equals to 0x0000 
+<t:    5435930>, main.c,   80, Got a SIMPLE_SMART_CITY_SET message from t_light 0x010F with state 0x1 
+<t:    5442755>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5466999>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x01 
+<t:    5467004>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x1 
+<t:    5467026>, main.c,  183, nRF status equals to 0x0000 
+<t:    5484252>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x1 
+<t:    5499767>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5499771>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5499795>, main.c,  183, nRF status equals to 0x0000 
+<t:    5532535>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x01 
+<t:    5532539>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x1 
+<t:    5532563>, main.c,  183, nRF status equals to 0x0000 
+<t:    5534081>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x1 
+<t:    5565303>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x01 
+<t:    5565308>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x1 
+<t:    5565312>, main.c,   95, Message not stored 
+<t:    5565333>, main.c,  183, nRF status equals to 0x0000 
+<t:    5567336>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5598071>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5598076>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5598081>, main.c,   95, Message not stored 
+<t:    5598101>, main.c,  183, nRF status equals to 0x0000 
+<t:    5606752>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x1 
+<t:    5630839>, main.c,  168, Sending a SIMPLE_SMART_CITY_SET message with state 0x1 
+<t:    5630843>, main.c,   80, Got a SIMPLE_SMART_CITY_SET message from t_light 0x010F with state 0x1 
+<t:    5630865>, main.c,  170, nRF status equals to 0x0000 
+<t:    5630868>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x01 
+<t:    5630873>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x1 
+<t:    5630878>, main.c,  183, nRF status equals to 0x0004 
+<t:    5632440>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x1 
+<t:    5632444>, main.c,   95, Message not stored 
+<t:    5663607>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x01 
+<t:    5663612>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x1 
+<t:    5663636>, main.c,  183, nRF status equals to 0x0000 
+<t:    5665280>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5696375>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5696380>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5696384>, main.c,   95, Message not stored 
+<t:    5696405>, main.c,  183, nRF status equals to 0x0000 
+<t:    5729143>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x01 
+<t:    5729147>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x1 
+<t:    5729170>, main.c,  183, nRF status equals to 0x0000 
+<t:    5745921>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    5761911>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x01 
+<t:    5761916>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x1 
+<t:    5761939>, main.c,  183, nRF status equals to 0x0000 
+<t:    5770788>, main.c,   80, Got a SIMPLE_SMART_CITY_SET message from t_light 0x010F with state 0x0 
+<t:    5794679>, main.c,  168, Sending a SIMPLE_SMART_CITY_SET message with state 0x0 
+<t:    5794683>, main.c,   80, Got a SIMPLE_SMART_CITY_SET message from t_light 0x010F with state 0x0 
+<t:    5794705>, main.c,  170, nRF status equals to 0x0000 
+<t:    5794708>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x01 
+<t:    5794713>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x1 
+<t:    5794718>, main.c,  183, nRF status equals to 0x0004 
+<t:    5812240>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x1 
+<t:    5812245>, main.c,   95, Message not stored 
+<t:    5827447>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x01 
+<t:    5827451>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x1 
+<t:    5827475>, main.c,  183, nRF status equals to 0x0000 
+<t:    5860215>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5860219>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5860243>, main.c,  183, nRF status equals to 0x0000 
+<t:    5861481>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x1 
+<t:    5892983>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x01 
+<t:    5892988>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x1 
+<t:    5892992>, main.c,   95, Message not stored 
+<t:    5893013>, main.c,  183, nRF status equals to 0x0000 
+<t:    5910081>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5925751>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    5925756>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    5925760>, main.c,   95, Message not stored 
+<t:    5925781>, main.c,  183, nRF status equals to 0x0000 
+<t:    5927304>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x1 
+<t:    5958519>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x01 
+<t:    5958523>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x1 
+<t:    5958528>, main.c,   95, Message not stored 
+<t:    5958549>, main.c,  183, nRF status equals to 0x0000 
+<t:    5958552>, main.c,  193, Requesting a SIMPLE_SMART_CITY_GET message 
+<t:    5958555>, main.c,  104, Replying a SIMPLE_SMART_CITY_GET message with state 0x0 
+<t:    5958559>, main.c,   80, Got a SIMPLE_SMART_CITY_SET message from t_light 0x010F with state 0x0 
+<t:    5960183>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    5991287>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    5991292>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    5991315>, main.c,  183, nRF status equals to 0x0000 
+<t:    5992439>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    6024055>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    6024060>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    6024083>, main.c,  183, nRF status equals to 0x0000 
+<t:    6041323>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    6056823>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    6056828>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    6056833>, main.c,   95, Message not stored 
+<t:    6056854>, main.c,  183, nRF status equals to 0x0000 
+<t:    6058219>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    6089591>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    6089595>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    6089618>, main.c,  183, nRF status equals to 0x0000 
+<t:    6107158>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    6122359>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    6122364>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    6122387>, main.c,  183, nRF status equals to 0x0000 
+<t:    6124078>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    6155127>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    6155131>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    6155154>, main.c,  183, nRF status equals to 0x0000 
+<t:    6156989>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    6187895>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x02 
+<t:    6187900>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x2 
+<t:    6187904>, main.c,   95, Message not stored 
+<t:    6187925>, main.c,  183, nRF status equals to 0x0000 
+<t:    6189915>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    6220663>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    6220668>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    6220691>, main.c,  183, nRF status equals to 0x0000 
+<t:    6238230>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x2 
+<t:    6253431>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    6253436>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    6253459>, main.c,  183, nRF status equals to 0x0000 
+<t:    6270988>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0101 saying t_light 0x010F was state 0x0 
+<t:    6286199>, main.c,  181, Sending a SIMPLE_SMART_CITY_SHARE message with tlight 0x010F state eguals to 0x00 
+<t:    6286204>, main.c,   87, Got a SIMPLE_SMART_CITY_SHARE message from 0x0102 saying t_light 0x010F was state 0x0 
+<t:    6286208>, main.c,   95, Message not stored 
+<t:    6286229>, main.c,  183, nRF status equals to 0x0000 
